@@ -5,35 +5,49 @@ This project leverages web scraping and data mining techniques to analyze real e
 
 # Data Source
 MLS (Multiple Listing Service): A comprehensive platform for real estate listings.
+
 Web scraping was used to collect housing data including price, square footage, property type, number of bedrooms and bathrooms, and HOA fees.
 
 # Tools & Technologies
 Python (BeautifulSoup)
+
 Pandas, NumPy for data processing
+
 Matplotlib, Seaborn for data visualization
+
 Scikit-learn for regression modeling and clustering
 
 # Methodology
 ## Web Scraping
 Extracted property listings from MLS using Python's BeautifulSoup.
+
 Collected details like price, property type, bedrooms, bathrooms, square footage, and HOA fees.
 
 ## Data Preprocessing
 Dropped rows with null values to improve data quality.
+
 Converted categorical and numerical data types for efficient analysis.
+
 Split location data into separate columns: Address, City, and Zip Code.
+
 Removed price symbols to enable numerical computations.
 
 ## Data Analysis
 Used Linear Regression and Multiple Regression to predict property prices based on square footage, bedrooms, and other features.
+
 Applied clustering techniques to identify housing market segments.
 
 # Research Questions
 What property types are prevalent in Alameda County?
+
 What are the recent trends in selling prices across neighborhoods?
+
 How do factors like property type, size, and number of bedrooms/bathrooms affect pricing?
+
 What is the average mortgage amount in Alameda County?
+
 Can we predict house prices using Linear Regression?
+
 How can clustering analysis help identify unique neighborhood clusters?
 
 # Key Findings
@@ -52,8 +66,11 @@ Luxury Elite Homes: Pleasanton leads in high-end, expensive homes with top-tier 
 image
 # Future Enhancements
 Implement automated web scraping for real-time data updates.
+
 Explore deep learning models for better price prediction.
+
 Expand dataset to include interest rates, crime rates, and school rankings.
+
 Develop an interactive dashboard for real estate analytics.
 
 Contact
